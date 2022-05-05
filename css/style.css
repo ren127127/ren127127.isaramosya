@@ -1,0 +1,1697 @@
+@charset "UTF-8";
+
+body {
+    font-size: 14px;
+}
+
+/* header */
+header {
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 10;
+}
+
+.headerin {
+    width: 100%;
+    max-width: 1170px;
+    height: 75px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.headerin-left {
+    display: flex;
+}
+
+.headerin-left img {
+    width: 122px;
+}
+
+.headerin-left p {
+    align-self: end;
+    padding-bottom: 4px;
+    font-weight: 600;
+}
+
+.headerin-right {
+    background-color: #da6b64;
+    color: #ffffff;
+    padding: 11px 40px;
+    border-radius: 25px;
+}
+
+.form {
+    display: none;
+}
+/* main */
+.isarahome {
+    width: 100%;
+    height: 500px;
+    background-image: url(../image/main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.text {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.homeimgp img {
+    width: 317px;
+}
+
+.homeimgp {
+    margin-bottom: 20px;
+}
+
+.textl {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.isarahome div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    padding-top: 75px;
+}
+
+/* お問い合わせ */
+
+.contact {
+    width: 100%;
+    background-color: #ebb94d;
+    padding: 30px 0;
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+}
+
+.center {
+    text-align: center;
+}
+
+.textr {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.code {
+    background-color: #f9f2f4;
+    color: #c7254e;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 2px 4px;
+    max-width: 465px;
+    margin: 0 auto;
+}
+
+.textred {
+    max-width: 1028px;
+    margin: 45px auto;
+    background-color: #da6b64;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 30px 120px;
+    font-size: 28px;
+}
+
+.textblack {
+    font-size: 21px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.snslist-inline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twi {
+    margin-bottom: 10px;
+    margin-right: -13px;
+} 
+/* エンジニアとして本当に自由を手に入れる */
+
+.intoro {
+    max-width: 100%;
+    padding: 40px 0;
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+}
+
+.pw p {
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.pw {
+    padding: 40px 0;
+}
+
+.h2w {
+    max-width: 860px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding: 15px 0;
+}
+
+h2 {
+    margin: 20px 0 10px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.h2w::before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 4px solid #ebb94d;
+    border-left: 4px solid #ebb94d;
+}
+
+.h2w::after {
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-bottom: 4px solid #ebb94d;
+    border-right: 4px solid #ebb94d;
+}
+
+.intoro {
+    background-image: url(../image/introbottom.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.line {
+    border-bottom: 5px solid #ebb94d;
+    font-weight: bold;
+}
+
+/* エンジニア育成講座 */
+.scsess {
+    width: 100%;
+    padding-bottom: 40px;
+    background-color: #fef5e0;
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+    text-align: center;
+    position: relative;
+}
+
+.maru p {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    display: inline-block;
+    text-align: center;
+    background-color: #ebb94d;
+    color: #f9f2f4;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.maru {
+    position: relative;
+    top: -40px;
+}
+
+.h2w2 {
+    max-width: 860px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px 30px;
+    position: relative;
+}
+
+.h2w2::before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 4px solid #ebb94d;
+    border-left: 4px solid #ebb94d;
+}
+
+.h2w2::after {
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-bottom: 4px solid #ebb94d;
+    border-right: 4px solid #ebb94d;
+}
+
+.money {
+    font-size: 20px;
+    margin: 40px 0 10px;
+}
+
+.sukil {
+    max-width: 1170px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 2px solid #ebb94d;
+    border-radius: 5px;
+}
+
+.five {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.box {
+    display: inline-block;
+    padding: 10px;
+}
+
+.box p {
+    margin: 10px 0;
+}
+
+/* isaraで基礎的なプログラミングスキルは教えません */
+.kiso1 {
+    max-width: 100%;
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+    text-align: center;
+    padding: 40px 0;
+    background-image: url(../image/aboutsecondbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.teach {
+    font-size: 28px;
+    margin: 20px 0;
+    color: #ffffff;
+}
+
+.kiso {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.white {
+    display: inline-block;
+    padding: 30px 30px 20px;
+    background-color: #ffffff;
+    width: 374px;
+    border-radius: 5px;
+    margin: 30px 10px 0;
+}
+
+.kiiro1 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    background-color: #ebb94d;
+    border-radius: 5px;
+}
+
+.kiiro {
+    color: #ebb94d;
+}
+
+.bankoku {
+    font-size: 14px;
+    margin: 30px 0 15px;
+}
+
+.bakoku2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* 青い文章 */
+.blue {
+    max-width: 100%;
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+    padding: 40px 0;
+    font-size: 20px;
+    background-color: #036DA9;
+    text-align: center;
+}
+
+.blue1 {
+    color: #ffffff;
+}
+/* iSaraで学べること*/
+.kume {
+    padding: 40px 0;
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+}
+
+.kanta {
+    font-size: 24px;
+    margin: 20px 0 35px;
+    font-weight: 600;
+}
+
+.ren {
+    font-size: 14px;
+}
+
+.nakano {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.sasuke {
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px auto;
+}
+
+.naruto img {
+    width: 180px;
+    height: 180px;
+}
+
+.sakura {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* 他のプログラミング */
+.zoro {
+    background-color:  #fef5e0;;
+    padding: 40px 0;
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+}
+.nami {
+    max-width: 860px;
+    width: 100%;
+    padding: 15px 30px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.nami::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border-top: 4px solid #ebb94d;
+    border-left: 4px solid #ebb94d;
+}
+
+.nami::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border-bottom: 4px solid #ebb94d;
+    border-right: 4px solid #ebb94d;
+}
+
+.sannzi {
+    margin: 0;
+}
+
+.robin {
+    display: flex;
+    max-width: 1170px;
+    margin: 40px auto;
+}
+
+.usoppu {
+    width: 33%;
+    padding: 0 15px;
+}
+
+.usoppu img {
+    width: 100%;
+}
+
+.burukku {
+    font-size: 20px;
+    color: #ebb94d;
+    margin: 8px 0;
+}
+
+.burukku p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.tiisai {
+    font-size: 20px;
+}
+
+.konan {
+    text-align: center;
+    max-width: 1170px;
+    background-color: #ffffff;
+    border: 2px solid #ebb94d;
+    margin: 40px auto;
+    padding: 40px 20px;
+}
+
+.agasa {
+    font-size: 28px;
+    color: #ebb94d;
+    margin-bottom: 10px
+}
+
+.ayumi {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.ran {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.mituhiko {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* まなぶさん */
+.manabu {
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+    background-image: url(../image/teacherbg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.cen {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.member {
+    text-align: center;
+    font-size: 28px;
+    margin: 20px 0 10px;
+}
+
+.mana {
+    display: flex;
+    justify-content: center;
+}
+
+.big p img {
+    border-radius: 50%;
+    position: relative;
+    bottom: -35px;
+}
+
+.big > p {
+    text-align: center;
+}
+
+.big {
+    padding: 0 15px;
+}
+
+.suri {
+    max-width: 370px;
+    min-height: 397px;
+    padding: 40px;
+    border: 3px solid #fff;
+}
+
+.kousi {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.nagai {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Q&A */
+.Q {
+    background-color: #ebb94d;
+    padding: 40px;
+    position: relative;
+}
+
+.Q::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -25px;
+    border: 25px solid transparent;
+    border-top-color: #ebb94d;
+    width: 0px;
+    height: 0px;
+}
+
+.Q div p {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #ebb94d;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 80px;
+    font-size: 14px;
+}
+
+.A {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 15px 30px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 28px;
+}
+
+.A::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+}
+
+.A::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border-bottom: 4px solid #fff;
+    border-right: 4px solid #fff;
+}
+
+/* 実現可能です */
+.zi {
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+    font-size: 14px;
+    padding: 20px 0 40px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.ka {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.ka1 {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.zi > p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.flex1 {
+    display: flex;
+    font-size: 18px;
+    padding: 20px 0;
+    margin-left: 195px; 
+}
+
+.flex1 img {
+    width: 245px;
+    height: 245px;
+    max-width: 100%;
+    border: solid;
+    border-color: #ebb94d;
+}
+
+.flex2 {
+    padding-left: 30px;
+    margin: 15px 0 10px;
+    color: #777;
+}
+
+.line1 {
+    margin-top: 8px;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+/* 学べる内容 */
+
+.un {
+    padding: 40px 0;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+    text-align: center;
+    background-image: url(../image/classbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.un1 {
+    color: #fff;
+    font-size: 28px;
+    margin: 20px 0 10px;
+}
+
+.un > p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.bl {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.bl1 {
+    padding: 0 15px;
+}
+
+.bl1 > ul {
+    background-color: #fff;
+    border: 2px solid #016EA9;
+    border-radius: 0 0 5px 5px;
+}
+
+.bl1 > ul > li {
+    padding: 10px;
+    border-bottom: 1px dotted #e5e5e5;
+}
+
+.al {
+    color: #fff;
+    background-color: #016EA9;
+    padding: 15px;
+    border: 2px solid #016EA9;
+    border-radius: 5px 5px 0 0;
+}
+
+.w {
+    background-color: #016EA9;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding: 40px 0;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+}
+
+/* 受講の流れ */
+.nagare {
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+    padding: 40px 0;
+}
+
+.nagare1 {
+    font-size: 28px;
+    margin: 20px 0 10px;
+    text-align: center;
+}
+
+.ga {
+    margin: 40px auto;
+    max-width: 1000px;
+}
+
+.ga img {
+    width: 100%;
+}
+
+.za {
+    margin: 0 auto;
+    max-width: 762px;
+}
+
+.za img {
+    width: 100%;
+}
+
+.nabox {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 10px 35px;
+    background-color: #FDF5E0;
+    border-radius: 10px;
+    display: flex;
+}
+
+.nagaleft {
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+.nagaleft1 {
+    margin-top: 40px;
+}
+
+.nagaright {
+    padding-top: 10px;
+    display: inline-block;
+    width: 900px;
+}
+
+.nagaue {
+    margin: 20px 0 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nagasita {
+    margin: 20px 0 10px;
+    font-size: 14px;
+}
+
+.nabox h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+/* バンコクなのか */
+.bankokus {
+    padding: 80px;
+    background-image: url(../image/bangkokbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+}
+
+.bankokus div {
+    margin: 0 20px;
+}
+
+.bankokus div div {
+    margin: 20px 0;
+}
+
+.whys {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.why1 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.why2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.why3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* 参加特典 */
+.sanka {
+    padding: 40px 0;
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+    background-color: #f7c23c;
+    text-align: center;
+}
+
+.tokuten {
+    font-size: 28px;
+    margin: 20px 0 40px;
+}
+
+.tokuten1 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.tokuten2 {
+    color: #fff;
+}
+
+.sanka1 {
+    max-width: 1170px;
+    border: 2px solid #fff;
+    padding: 40px;
+    margin: 40px auto 0;
+}
+
+.tokuten3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 65px;
+    width: 65%;
+    margin: 0 auto;
+    background-color: #f7c23c;
+}
+
+.tokubox {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+    padding: 15px;
+}
+
+.tokubox div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+}
+
+.tokubox h4 {
+    font-size: 24px;
+    color: #ebb94d;
+    margin-bottom: 10px;
+}
+
+.tokubox p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+
+.sanka2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ボランティアではありません */
+.boran {
+    padding: 20px 10px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+    background-image: url(../image/specialdetail.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.boran1 {
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+.boran2 {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.boran h3 {
+    max-width: 860px;
+    margin: 20px auto;
+    padding: 15px 30px;
+    position: relative;
+    font-size: 28px;
+}
+
+.boran h3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+}
+
+.boran h3::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border-bottom: 4px solid #fff;
+    border-right: 4px solid #fff;
+}
+
+/* 創業者からのメッセージ */
+.sougyou {
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+    padding: 40px 0;
+}
+
+.sougyou1 { 
+    font-size: 28px;
+    margin: 20px 0 35px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.sougyou2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.sougyou3 {
+    display: flex;
+    max-width: 895px;
+    margin: 35px auto 0;
+}
+
+.sougyou5 p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+
+.sougyou5 {
+    width: 670px;
+}
+
+.sougyou4 {
+    padding: 0 15px;
+    width: 220px;
+    height: 150px;
+}
+
+.sougyou4 img {
+    width: 100%;
+}
+
+/* フォーム */
+.form11 {
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+    padding: 40px 15px;
+    background-color: #ebb94d;
+}
+
+.form11 h2 {
+    font-size: 28px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.form11 p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+form {
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+form input, textarea {
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+.subm {
+    background-color: #da6b64;
+    color: #fff;
+    padding: 10px 80px;
+    margin: 10px 0;
+    font-size: 23px;
+    font-weight: 600;
+    border-radius: 50px;
+    text-align: center;
+}
+
+/* footer */
+footer {
+    padding: 40px 15px 20px;
+    background-color: #ececec;
+    text-align: center;
+}
+
+footer p {
+    padding-bottom: 10px;
+    font-size: 10px;
+}
+
+.lilia {
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .headerin-left p {
+        font-size: 10px;
+        position: absolute;
+        top: 8px;
+        left: 10px;
+    }
+
+    .headerin-left h1 {
+        position: absolute;
+        top: 25px;
+        left: 10px;
+    }
+
+    .headerin-left img {
+        width: 90px;
+    }
+    
+    .headerin-right {
+        display: none;
+    }
+
+    .form {
+        display: block;
+        text-align: center;
+        padding: 12px 11px 6px;
+        background-color: #da6b64;
+        color: #ffffff;
+        position: absolute;
+        top: 0;
+        right: 0;
+        max-width: 100%;
+        height: 75px;
+
+    }
+
+    .form img {
+        display: block;
+        width: 20px;
+        margin: 0 auto;
+    }
+
+    .form a {
+        display: block;
+        font-size: 12px;
+    }
+
+    /* メイン */
+.isarahome div {
+    padding-top: 0px;
+}
+
+    .text {
+        font-size: 18px;
+    }
+
+    .textl {
+        font-size: 15px;
+    }
+
+    .textr {
+        font-size: 15px;
+    }
+
+    .code {
+        font-size: 13.5px;
+        max-width: 370px;
+        letter-spacing: 0;
+    }
+
+    .textred {
+        font-size: 20px;
+        margin: 25px 20px 10px;
+        padding: 15px 20px;
+    }
+
+    .textblack {
+        font-size: 15px;
+    }
+    /* エンジニアとして本当の自由を手に入れる */
+    .h2w {
+        margin: 0 auto;
+        padding: 5px 20px;
+        width: 95%;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .h2w::after {
+        width: 30px;
+        height: 30px;
+    }
+    .h2w::before {
+        width: 30px;
+        height: 30px;
+    }
+
+    .br {
+        display: block;
+    }
+
+    .pw p {
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+
+    .br1 {
+        margin-bottom: 30px;
+    }
+
+    .pw {
+        padding: 25px 0;
+    }
+
+    .intoro {
+        padding: 30px 0;
+        background-position: center bottom;
+        background-size: contain;
+    }
+
+    .maru p {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 12px;
+    } 
+
+    .maru {
+        top: -30px;
+    }
+
+    .h2w2 {
+        padding: 10px 10px;
+        width: 95%;
+    }
+
+    .h2w2::before {
+        width: 30px;
+        height: 30px;
+    }
+
+    .h2w2::after {
+        width: 30px;
+        height: 30px;
+    }
+
+    .money {
+        font-size: 15px;
+        margin: 15px 0 10px;
+    }
+
+    .sukil {
+        margin: 30px 20px;
+    }
+
+    .box p {
+        font-size: 10px;
+    }
+
+    /* isaraで基礎的なプログラミングスキルは教えません */
+    .kiso1 {
+        padding: 30px;
+    }
+
+    .teach {
+        font-size: 18px;
+    }
+
+    .kiso {
+        font-size: 13px;
+    }
+
+    .kiiro1 {
+        font-size: 12px;
+    } 
+
+    .bankoku {
+        font-size: 12px;
+        margin: 15px 0 10px;
+    }
+
+    .bankoku2 {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .white {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+/* 青い文章 */
+    .blue {
+        font-size: 12px;
+        padding: 20px 0;
+    }
+
+/* iSaraで学べること */
+    .naruto img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .sasuke {
+        margin: 20px 0;
+    }
+
+    .kume {
+        padding: 20px 0;
+    }
+
+/* 他のプログラミングスクール */
+    .zoro {
+        padding: 30px 0;
+    }
+    .nami {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .nami::after {
+        width: 30px;
+        height: 30px;
+    }
+
+    .nami::before {
+        width: 30px;
+        height: 30px;
+    }
+
+    .sannzi {
+        font-size: 18px;
+    }
+
+    .tiisai {
+        font-size: 15px;
+    }
+
+    .robin {
+        display: block;
+    }
+
+    .usoppu {
+        padding: 0 15px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .burukku {
+        margin: 10px 0 8px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .usoppu p {
+        font-size: 12px;
+        margin: 8px 0;
+    }
+
+    .konan {
+        margin: 15px 20px;
+        padding: 10px;
+    }
+
+    .agasa {
+        font-size: 18px;
+    }
+    .ayumi {
+        font-size: 15px;
+    }
+    .ran {
+        font-size: 10px;
+    }
+    .mituhiko {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+
+/* 学ぶさん */
+    .manabu {
+        padding: 20px 0;
+    }
+    
+    .cen {
+        font-size: 12px;
+    }
+    
+    .member {
+        margin: 20px 0 10px;
+        font-size: 18px;
+    }
+    
+    .mana {
+        display: block;
+    }
+    
+    .big p img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .kousi , .nagai {
+        font-size: 12px;
+    }
+    
+    .suri {
+        width: 100%;
+        min-height: auto;
+        padding: 40px 10px 10px;
+        border: 3px solid #fff;
+        margin: 0 auto;
+    }
+    
+    .kousi {
+        font-size: 14px;
+    }
+    
+    .nagai {
+        font-size: 14px;
+    }
+
+    /* Q&A */
+    .Q {
+        padding: 20px 0;
+    }
+
+    .Q div p {
+        width: 60px;
+        height: 60px;
+        font-size: 12px;
+        line-height: 60px;
+    }
+
+    .A {
+        margin: 0 10px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .A::after , .A::before {
+        width: 30px;
+        height: 30px;
+    }
+
+    .sasasa {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .Q::after {
+        content: "";
+        border: 15px solid transparent;
+        border-top-color: #ebb94d;
+        margin-left: -15px;
+    }
+
+    /* 実現可能です */
+    .zi {
+        font-size: 12px;
+        padding: 20px 0;
+    }
+    .ka {
+        font-size: 18px;
+        margin: 0 0 10px;
+    }
+
+    .ka1 {
+        font-size: 12px;
+    }
+
+    .flex2 {
+        margin: 0 0 10px;
+    }
+
+    .flex2 > p {
+        font-size: 14px;
+    }
+
+    .line1 {
+        font-size-adjust: 12px;
+    }
+
+    .flex1 {
+        margin: 0 10px;
+    }
+    .flex1 > img {
+        width: 150px;
+        height: 150px;
+    }
+
+    /* 学べる内容 */
+    .un {
+        font-size: 12px;
+        padding: 20px;
+    }
+
+    .un1 {
+        font-size: 18px;
+    }
+    .bl {
+        display: block;
+    }
+    .bl2 {
+        margin-top: 20px;
+    }
+
+    .w {
+        font-size: 15px;
+    }
+
+    /* 受講の流れ */
+    .nagaue {
+        font-size: 12px;
+        margin: 0 0 10px 0;
+    }
+    
+    .nagasita {
+        font-size: 12px;
+    }
+
+    .nagaright {
+        width: 100%;
+    }
+    
+    .nabox h3 {
+        font-size: 15px;
+        margin: 0;
+        line-height: 35px;
+    }
+
+    .nabox h3 br {
+        display: none;
+    }
+
+    .nabox {
+        display: block;
+        padding: 15px;
+    }
+
+    .nagaleft {
+        display: flex;
+        width: 100%;
+    }
+
+    .nagaleft1 {
+        margin-top: 0;
+    }
+
+    .nagaleft img {
+        width: 35px;
+        height: 35px;
+        margin-right: 15px;
+    }
+
+    .nagare {
+        padding: 20px 15px;
+    }
+
+    /* バンコクなのか */
+    .bankokus {
+        padding: 20px 15px;
+    }
+
+    .whys {
+        text-align: center;
+    }
+
+    .why1 {
+        font-size: 12px;
+    }
+
+    .why2 {
+        font-size: 12px;
+    }
+
+    .why3 {
+        font-size: 15px;
+    }
+
+    /* 参加特典 */
+    .tokuten {
+        font-size: 18px;
+    }
+
+    .tokuten1 {
+        font-size: 12px;
+    }
+
+    .tokuten3 {
+        font-size: 18px;
+        bottom: 45px;
+    }
+
+    .sanka2 {
+        display: block;
+    }
+
+    .tokubox {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto 20px;
+    }
+
+    .tokubox h4 {
+        font-size: 16px;
+    }
+
+    .tokubox p {
+        font-size: 12px;
+    }
+
+    .sanka1 {
+        padding: 20px;
+        margin: 40px 20px 0;
+    }
+
+    /* ボランティアではありません */
+    .boran1 {
+        font-size: 18px;
+    }
+
+    .boran2 {
+        font-size: 12px;
+    }
+
+    .boran h3 {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .boran h3::before {
+        width: 30px;
+        height: 30px;
+    }
+
+    .boran h3::after {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* 創業者からのメッセージ */
+    .sougyou {
+        padding: 20px 0;
+    }
+
+    .sougyou1 {
+        font-size: 18px;
+    }
+
+    .sougyou2 {
+        font-size: 15px;
+    }
+
+    .sougyou3 {
+        display: block;
+    }
+
+    .sougyou5 p {
+        padding: 0;
+    }
+
+    .sougyou5 {
+        padding: 5px;
+        width: 100%;
+    }
+
+    .sougyou4 {
+        padding: 5px;
+        width: 100%;
+        height: auto;
+    }
+
+    /* フォーム */
+    .form11 {
+        padding: 20px 15px;
+    }
+
+    .form11 h2 {
+        font-size: 18px;
+    }
+
+    .form11 p {
+        font-size: 12px;
+    }
+
+    /* footer */
+    footer {
+        padding: 20px 15px 0;
+    }
+
+    .lilia {
+        margin-top: 20px;
+    }
+}
